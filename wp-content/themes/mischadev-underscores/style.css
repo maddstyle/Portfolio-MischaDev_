@@ -22,37 +22,15 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Generic
-	- Normalize
-	- Box sizing
-# Base
-	- Typography
-	- Elements
-	- Links
-	- Forms
-## Layouts
-# Components
-	- Navigation
-	- Posts and pages
-	- Comments
-	- Widgets
-	- Media
-	- Captions
-	- Galleries
-# plugins
-	- Jetpack infinite scroll
-# Utilities
-	- Accessibility
-	- Alignments
+@font-face {
+	font-family: 'norwester';
+	src: url('fonts/norwester-webfont.woff2') format('woff2'),
+			 url('fonts/norwester-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 
---------------------------------------------------------------*/
+}
 
-/*--------------------------------------------------------------
-# Generic
---------------------------------------------------------------*/
 
 /* Normalize
 --------------------------------------------- */
@@ -391,8 +369,40 @@ html {
 }
 
 /*--------------------------------------------------------------
-# Base
+# Page Structure 
 --------------------------------------------------------------*/
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.inner {
+	padding: 20px;
+}
+
+.header-section,
+.footer-section {
+	background: #c7c7c7
+}
+
+.home .header-section{
+	background: url("http://localhost:8888/MischaDev_/wp-content/uploads/2020/10/apple-1868496_1920.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center top;
+}
+
+#primary {
+	float: left;
+	width: 65%;
+	padding-right: 20px
+}
+
+#secondary {
+	float: right;
+	width: 35%;
+	padding: 30px 0 0 20px;
+}
 
 /* Typography
 --------------------------------------------- */
@@ -403,7 +413,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: 'open sans';
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -415,6 +425,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+	font-family: 'Oswald';
 }
 
 p {
@@ -533,17 +544,31 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	color: #4169e1;
+	color: #414042;
 }
 
-a:visited {
+/* a:visited {
 	color: #800080;
-}
+} */
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: #d21f3c;
+	transition: all 0.3s ease;
+}
+
+.menu a:hover {
+	color: #d21f3c;
+	transition: all 0.3s ease;
+	border-bottom: 1px solid #d21f3c;
+	padding-bottom: 5px;
+}
+
+.current_page_item a {
+	color: #d21f3c;
+	border-bottom: 1px solid #d21f3c;
+	padding-bottom: 5px;
 }
 
 a:focus {
@@ -648,8 +673,11 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
+	clear: none;
 	display: block;
-	width: 100%;
+	float: left;
+	width: 85%;
+	margin-top: 1%;
 }
 
 .main-navigation ul {
@@ -703,16 +731,6 @@ textarea {
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
-
-	.menu-toggle {
-		display: none;
-	}
-
-	.main-navigation ul {
-		display: flex;
-	}
-}
 
 .site-main .comment-navigation,
 .site-main
@@ -741,7 +759,22 @@ textarea {
 	flex: 1 0 50%;
 }
 
-/* Posts and pages
+.menu-primary-container {
+	float: right;
+}
+
+/* #Header
+--------------------------------------------- */
+
+.site-branding{
+	width: 15%;
+	float: left;
+}
+
+/* #Content
+--------------------------------------------- */
+
+/* ##Posts and pages
 --------------------------------------------- */
 .sticky {
 	display: block;
@@ -767,7 +800,7 @@ textarea {
 	margin: 0 0 1.5em;
 }
 
-/* Comments
+/* ##Comments
 --------------------------------------------- */
 .comment-content a {
 	word-wrap: break-word;
@@ -777,7 +810,7 @@ textarea {
 	display: block;
 }
 
-/* Widgets
+/* ##Sidebar
 --------------------------------------------- */
 .widget {
 	margin: 0 0 1.5em;
@@ -786,6 +819,11 @@ textarea {
 .widget select {
 	max-width: 100%;
 }
+
+/* #Footer
+--------------------------------------------- */
+
+
 
 /* Media
 --------------------------------------------- */
@@ -966,4 +1004,17 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+/* #Media Queries
+--------------------------------------------- */
+@media screen and (min-width: 768px) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: flex;
+	}
 }
