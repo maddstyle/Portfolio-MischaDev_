@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-25 01:51+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:29
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:35
+msgid "Sorry that page you are looking for not found."
+msgstr ""
+
+#: 404.php:42
+msgid "Back To Home"
+msgstr ""
+
+#: archive.php:36
+msgid "Archive"
+msgstr ""
+
+#: archive.php:74 archive.php:97 category.php:74 category.php:97 index.php:77
+#: index.php:109 search.php:75 search.php:98 tag.php:74 tag.php:97
+msgid "- by "
+msgstr ""
+
+#: archive.php:85 archive.php:108 archive.php:178 category.php:85
+#: category.php:108 category.php:178 index.php:97 index.php:129 index.php:199
+#: search.php:86 search.php:109 search.php:179 tag.php:85 tag.php:108
+#: tag.php:178
+msgid "Read more"
+msgstr ""
+
+#: archive.php:125 category.php:125 index.php:146 search.php:126
+#: single.php:300 tag.php:125
+msgid "Category:"
+msgstr ""
+
+#: category.php:36
+msgid "Category"
+msgstr ""
+
+#: comments.php:19
+#, php-format
+msgid "One Comment on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:68
+msgid "Your Name*"
+msgstr ""
+
+#: comments.php:73
+msgid "Your Email*"
+msgstr ""
+
+#: comments.php:81
+msgid "Your Comment*"
+msgstr ""
+
+#: comments.php:84
+#: includes/extensions/wbc_importer/inc/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: comments.php:86
+msgid "Leave a"
+msgstr ""
+
+#: comments.php:86
+msgid "Comment"
+msgstr ""
+
+#: index.php:38 single.php:39
+msgid "News"
+msgstr ""
+
+#: search.php:43
+#, php-format
+msgid "Results for : \"%s\""
+msgstr ""
+
+#: search.php:198 search.php:207
+msgid "No Posts Found"
+msgstr ""
+
+#: single-portfolio.php:37 single-portfolio.php:50
+msgid "Back To List"
+msgstr ""
+
+#: single-portfolio.php:87
+msgid "Info"
+msgstr ""
+
+#: single.php:95
+msgid "by:"
+msgstr ""
+
+#: single.php:160
+msgid "Tags:"
+msgstr ""
+
+#: single.php:178
+msgid "Leave a Comment"
+msgstr ""
+
+#: single.php:193
+msgid "Share:"
+msgstr ""
+
+#: single.php:223
+msgid "Prev Post"
+msgstr ""
+
+#: single.php:228
+msgid "Back To"
+msgstr ""
+
+#: single.php:229 single.php:240
+msgid "Home"
+msgstr ""
+
+#: single.php:234
+msgid "Next Post "
+msgstr ""
+
+#: single.php:239
+msgid "Back To "
+msgstr ""
+
+#: single.php:251
+msgid "You Might Also Like:"
+msgstr ""
+
+#: tag.php:36
+msgid "Tag"
+msgstr ""
+
+#: template-parts/share.php:27
+msgid "Share this album"
+msgstr ""
+
+#: template-parts/page/one-page.php:278
+msgid "Newsletters"
+msgstr ""
+
+#: template-parts/page/one-page.php:331
+msgid "Newsletter sign up"
+msgstr ""

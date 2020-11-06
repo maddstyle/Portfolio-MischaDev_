@@ -1,0 +1,71 @@
+/*Theme Name: Drex
+Theme URI: https://themeforest.net/item/drex-one-page-portfolio-wordpress-theme/24130579
+Description: Drex is a fully responsive WordPress Theme with a modern design suitable for all creative fields. The WordPress Theme is featuring a powerful fullscreen background video and imagery making it a perfect choice for photographers, artists and designers who want to showcase their work. 
+Version: 1.5
+Author: webRedox WordPress team
+Author URI: http://webredox.net/
+
+License:
+License URI:
+Tags: two-columns, custom-background, custom-colors, featured-images, theme-options
+Text Domain: drex
+*/
+
+.wp-caption{
+margin-bottom: 1.75em;
+max-width: 100%;
+}
+.wp-caption-text{
+opacity: 1;
+visibility: visible;
+-webkit-transition: opacity 0.24s ease-in-out;
+-moz-transition: opacity 0.24s ease-in-out;
+transition: opacity 0.24s ease-in-out;}
+.sticky{color: #000;}
+.gallery-caption{
+opacity: 1;
+visibility: visible;
+-webkit-transition: opacity 0.24s ease-in-out;
+-moz-transition: opacity 0.24s ease-in-out;
+transition: opacity 0.24s ease-in-out;}
+.bypostauthor{color:#000;}
+.alignleft
+ {
+    float: left;
+    margin-right: 20px!important;
+    margin-bottom: 20px!important;
+	margin-top: 20px!important;
+}
+.alignright{
+    display: block;
+    float: right;
+	margin-top: 20px!important;
+    margin-left: 20px!important;
+    margin-bottom: 20px!important;
+}
+.aligncenter
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+    margin-bottom: 20px!important;
+    margin-top: 20px!important;
+}
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	/* many screen reader and browser combinations announce broken words as they would appear visually */
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+color:#000;	
+}
+.wp-block-image.alignfull img, 
+.wp-block-image.alignwide img {
+    width: 100%;
+}
